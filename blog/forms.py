@@ -2,7 +2,7 @@ from django import forms
 
 from .models import Post 
 
-class Postform(forms.ModelForm):
+class PostForm(forms.ModelForm):
     class Meta:
-        model = post 
+        model = Post 
         fields = ('title', 'text')
