@@ -9,7 +9,7 @@ It follows the REST mechanism
 you can either view the website as a visitor at [achintya.pythonanywhere.com](http://achintya.pythonanywhere.com) or
 you can clone the repositry and create a `super user`to access the complete functionality of the site 
 to run the server in the local enviorment after cloning the repositry 
-`cd` into the repositry. in the terminal run 'pip3 install requirement.txt` 
+`cd` into the repositry. in the terminal run `pip3 install requirement.txt` 
 then you need to create a super user for that run 
 `python3 manage.py createsuperuser` 
 now you have created a super user which you can use to access the django admin
